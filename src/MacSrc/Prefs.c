@@ -437,7 +437,7 @@ static struct {
                       {"keypad_0 ", 128 + 18, 0x52},
 
                       // these have no invented "ascii" codes so they can't be used as hotkeys, only move keys
-                      // except the 6 top keys
+                      // except the six editing keys should be allowed as hotkeys
                       {"keypad_home ", 0, 0x59},
                       {"keypad_up ", 0, 0x5B},
                       {"keypad_pgup ", 0, 0x5C},
